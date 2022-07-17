@@ -1,13 +1,15 @@
-<%@ page language="java" contentType="text/html;charset=Windows-31J"%>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>StandardCaluculator</title>
 <link rel="stylesheet" type="text/css" href="NewFile.css">
 </head>
 <body>
 	<%
-	String mongon = "index.jsp";
+	String mongon = "001";
 	%>
 
 	<%=mongon%>
@@ -18,13 +20,11 @@
 
 	<form action="/jsp_servlet/Login" method="POST">
 
-		Ý–ûF ‘å‚³‚¶: <input type="number" step="0.5" name="lTableSpoon" value=0>ml
-		¬‚³‚¶: <input type="number" step="0.5" name="lTeaSpoon" value=0>ml
+		é†¤æ²¹ï¼š å¤§ã•ã˜: <input type="number" step="0.5" name="lTableSpoon" value=0>ml
+		å°ã•ã˜: <input type="number" step="0.5" name="lTeaSpoon" value=0>ml
 		<br>
 		<br>
-		<br> ‚h‚c: <input type="text" name="id"> <br> ƒpƒXƒ[ƒh: <input
-			type="text" name="pass"> <br> <br> <input
-			type="submit" value="submit">
+		<input type="submit" value="submit">
 	</form>
 
 </body>

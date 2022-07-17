@@ -7,7 +7,7 @@
 <body>
 
 	<%
-	String mongon = "result.jsp";
+	String mongon = "001result.jsp";
 	%>
 
 	<%=mongon%>
